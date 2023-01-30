@@ -33,7 +33,7 @@ setInterval(function(){
     if(characterLeft==blockLeft && blockTop<500 && blockTop>300){
         // counter++;
     document.getElementById("white").innerText = "Score: " + counter;
-        if(counter>=5){
+        if(counter>=10){
             document.getElementById("white").innerHTML = "Great Work, You cleaned your river. Score:" + counter;
             block.style.animation = "none";
         }
